@@ -1,0 +1,30 @@
+body {
+  padding: 20px;
+}
+
+.users {
+  list-style: none;
+}
+
+.user {
+  background-color: white;
+  display: none;
+  float: left;
+  height: 400px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  padding: 2em;
+  width: 400px;
+}
+
+.user:first-child {
+  display: block;
+}
+
+.specs {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
